@@ -1,0 +1,216 @@
+﻿@charset "UTF-8";
+
+/* Tyylit näytöllä. */
+@media screen {
+
+  /* LISÄTÄÄN TEKSTILLE JA SIVUN TAUSTALLE VÄRIT */
+  body {
+    background: linear-gradient(to bottom right, #2EFEF7, #0040FF);
+    color: #000000;
+    width: 640px;
+    margin: 0 auto;
+  }
+
+  p {
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+  p.aika {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    border: 1px #214561;
+    border-radius: 3px 3px 3px 3px;
+    color: #00FF00;
+    width: 150px;
+    border: dashed;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-left: 237px;
+  }
+
+  h1.otsikko {
+    background: linear-gradient(white, #81F7F3);
+    border: 4px double #214561;
+    border-radius: 5px 5px 5px 5px;
+    color: blue;
+    text-align: center;
+  }
+
+  h2 {
+    background: linear-gradient(white, #81F7F3);
+    border: 4px double #214561;
+    border-radius: 5px 5px 5px 5px;
+    color: blue;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+  nav {
+    background-image: url(../img/navigaatiokuva.png);
+    height: 95px;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-left: 70px;
+    padding-top: 33px;
+    width: 498px;
+  }
+
+  a.ylos {
+    margin-left: 280px;
+  }
+
+  a.navigaatio {
+    background-color: white;
+    border: 3px double #214561;
+    border-radius: 8px 8px 8px 8px;
+    color: red;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-decoration: none;
+  }
+
+  a.navigaatio:hover {
+    background-color: #27FFB8;
+  }
+
+  li {
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+  table {
+    border: 4px;
+    border-color: black;
+    border-spacing: 2px;
+    border-style: dashed;
+    border-width: 2px;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  tr {
+    height: 80px;
+  }
+
+  td {
+    background: linear-gradient(to bottom left, #27FFB8, white);
+    border: 4px;
+    border-collapse: separate;
+    border-color: gray;
+    border-spacing: 10px;
+    border-style: ridge;
+    font-family: Verdana, Geneva, sans-serif;
+    height: 2em;
+    text-align: center;
+  }
+
+  footer {
+    border-top: thin dotted;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.8em;
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  form {
+    padding-bottom: 5px;
+    padding-top: 14px;
+    width: 500px;
+  }
+
+  input {
+    background-color: white;
+    border-color: #214561;
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-top: 5px;
+  }
+
+  input.lihavoitu {
+    font-weight: bold;
+    width: 90px;
+  }
+  input.kursivoitu {
+    font-style: italic;
+    width: 90px;
+  }
+  input.alleviivattu {
+    text-decoration: underline;
+    width: 90px;
+  }
+  input.ylleviivattu {
+    text-decoration: overline;
+    width: 90px;
+  }
+  input.yliviivattu {
+    text-decoration: line-through;
+    width: 90px;
+  }
+  input.ylaindeksoitu {
+    vertical-align: super;
+    font-size: 65%;
+    width: 50px;
+  }
+  input.alaindeksoitu {
+    vertical-align: sub;
+    font-size: 65%;
+    width: 50px;
+  }
+  input.pienennetty {
+    font-size: 11px;
+    width: 90px;
+  }
+  input.vahvistettu {
+    width: 90px;
+    font-weight: 900;
+  }
+  input.otsikoitu {
+    font-size: 25px;
+    width: 90px;
+  }
+  input.koodattu {
+    font-family: monospace;
+    width: 90px;
+  }
+
+  textarea {
+    background-color: white;
+    border-color: #214561;
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    height: 80px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 3px;    
+    width: 300px;
+  }
+
+  label {
+    display: inline-block; 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    vertical-align: top;
+    width: 140px; 
+  }
+
+}
